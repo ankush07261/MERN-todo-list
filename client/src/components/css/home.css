@@ -1,0 +1,39 @@
+.tasks{
+    display: flex;
+    margin:0.5rem auto;
+    background-color: rgb(182, 182, 182);
+    width: 40%;
+    justify-content: space-evenly;
+    padding: 0rem 1rem 0rem 2rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    /* align-items: center; */
+}
+.done{
+    margin: 0.2rem auto 0.2rem 0;
+}
+.options{
+    margin: 0.2rem 0 0.2rem auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.home input{
+    width:30%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+.home{
+    padding-top:2rem;
+    width: 100%;
+    text-align: center;
+}
+.home button{
+    padding: 0.4rem;
+}
+.option:hover{
+    cursor: pointer;
+}
+hr{
+    width: 60%
+}

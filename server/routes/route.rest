@@ -1,0 +1,23 @@
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "title" : "webdev"
+}
+
+###
+GET http://localhost:5000/todos
+
+###
+GET http://localhost:5000/todos/655c77b7a5d253b6aae66be2
+
+###
+PATCH http://localhost:5000/todos/655c77a0a5d253b6aae66be0
+Content-Type: application/json
+
+{
+    "title" : "dinner"
+}
+
+###
+DELETE http://localhost:5000/todos/655c75e8a5d253b6aae66bde
